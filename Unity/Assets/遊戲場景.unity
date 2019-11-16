@@ -841,7 +841,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &983207318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -952,6 +952,7 @@ MonoBehaviour:
   transformA: {fileID: 294333769}
   transformB: {fileID: 1996533701}
   depthA: {fileID: 482389716}
+  aud: {fileID: 0}
 --- !u!1 &1065415734
 GameObject:
   m_ObjectHideFlags: 0
@@ -1239,6 +1240,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lv: 0
   high: 0
+  pipe: {fileID: 0}
 --- !u!1 &1576352319
 GameObject:
   m_ObjectHideFlags: 0
@@ -1719,6 +1721,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lv: 0
   high: 0
+  pipe: {fileID: 7687572324076291639, guid: baf975378582b6f4daeb88ae199d3e68, type: 3}
 --- !u!1 &2138493446
 GameObject:
   m_ObjectHideFlags: 0

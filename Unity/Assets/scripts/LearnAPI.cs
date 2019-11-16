@@ -4,7 +4,10 @@ public class LearnAPI : MonoBehaviour
 {
     public Transform transformA;
     public Transform transformB;
+
     public Camera depthA;
+
+    public AudioSource aud;
 
     private void Start()
     {
@@ -27,6 +30,8 @@ public class LearnAPI : MonoBehaviour
           print("物件 B 的座標:" + transformB.position);
 
           print("攝影機深度:" + depthA.depth);
+
+          //aud.Stop();
 
     }
      private void Update()

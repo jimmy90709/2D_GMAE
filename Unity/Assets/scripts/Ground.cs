@@ -8,7 +8,7 @@ public class Ground : MonoBehaviour
 
    public Transform ground;
 
-   private void Start() 
+      private void Start() 
    {
       //屬性
       print(ground.position);
