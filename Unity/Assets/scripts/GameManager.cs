@@ -59,6 +59,6 @@ public class GameManager : MonoBehaviour
    private void Start()
    {
        // 重複調用("方法名稱" , 開始時間, 間隔時間)
-       InvokeRepeating("SpawnPipe", 0, 1f);
+       InvokeRepeating("SpawnPipe", 0, 1.5f);
    }
 }

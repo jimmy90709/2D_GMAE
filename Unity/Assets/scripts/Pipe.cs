@@ -5,6 +5,6 @@ public class Pipe : Ground
    {
        // gameObject 指的是此類別的遊戲物件
        // 刪除(物件 ， 延遲時間)
-       Destroy(gameObject, 2f);
+       Destroy(gameObject, 3f);
    }
 }
