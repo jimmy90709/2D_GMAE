@@ -60,6 +60,7 @@ public class fly : MonoBehaviour
    private void Dead()
    {
         print("死亡~");
+        aud.PlayOneShot(soundHit, 1.5f);
         dead = true;
         gm.GameOver();
    }
@@ -74,8 +75,7 @@ public class fly : MonoBehaviour
     {
         //碰到物件.遊戲物件.名稱
         print(hit.gameObject.name);
-
-        if(hit.gameObject.name == "地板")
+        if (hit.gameObject.name == "地板")
         {
             Dead();
         }
@@ -98,6 +98,7 @@ public class fly : MonoBehaviour
         // dead != true  簡寫 !dead
         if (hit.name == "加分" && dead != true)
         {
+            aud.PlayOneShot(soundAdd, 1.5f);
             aud.PlayOneShot(soundAdd, 0.7f);
             gm.plus();
         }
