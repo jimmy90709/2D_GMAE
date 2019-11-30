@@ -281,7 +281,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 305408512}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1305886300}
+        m_MethodName: Replay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &305408512
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1184,6 +1195,7 @@ MonoBehaviour:
   pipe: {fileID: 7687572324076291639, guid: baf975378582b6f4daeb88ae199d3e68, type: 3}
   goFinal: {fileID: 1263521855}
   textScore: {fileID: 2118345454}
+  textBest: {fileID: 1171488079}
 --- !u!4 &1305886301
 Transform:
   m_ObjectHideFlags: 0
@@ -1354,7 +1366,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1576352322}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1305886300}
+        m_MethodName: Quit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1576352322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1862,6 +1885,7 @@ MonoBehaviour:
   pipe: {fileID: 7687572324076291639, guid: baf975378582b6f4daeb88ae199d3e68, type: 3}
   goFinal: {fileID: 0}
   textScore: {fileID: 0}
+  textBest: {fileID: 0}
 --- !u!1 &2138493446
 GameObject:
   m_ObjectHideFlags: 0

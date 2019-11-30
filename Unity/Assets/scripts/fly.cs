@@ -44,6 +44,10 @@ public class fly : MonoBehaviour
             goScore.SetActive(true);             // 分數 顯示
             goGM.SetActive(true);                // GM   顯示
         }
+      if(Input.GetKeyDown(KeyCode.Mouse1))
+        {
+            r2d.gravityScale = 2;
+        }
 
         //Rigidbody2D.SetRotation(float) 設定角度(角度)
         //Rigidbody2D.velocity 加速度 (二維向量 x, y)
@@ -91,8 +95,10 @@ public class fly : MonoBehaviour
     //事件 : 觸發離開 - 物件離開觸發區域執行一次
     private void OnTriggerExit2D(Collider2D hit)
     {
-        if(hit.name == "加分")
+        // dead != true  簡寫 !dead
+        if (hit.name == "加分" && dead != true)
         {
+            aud.PlayOneShot(soundAdd, 0.7f);
             gm.plus();
         }
     }
