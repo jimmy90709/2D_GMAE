@@ -507,7 +507,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: c4f8fffff6f8fffff8f8ffff9cf9ffffcef9ffff5efaffff46fbffff
+      m_ExpandedIDs: 5ef9ffff94f9ffff28faffff46fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -570,19 +570,19 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - "Assets/\u5716\u7247"
+    - Assets/scripts
   m_ViewMode: 1
   m_StartGridSize: 50
   m_LastFolders:
-  - "Assets/\u5716\u7247"
+  - Assets/scripts
   m_LastFoldersGridSize: 50
   m_LastProjectPath: C:\Users\A\Desktop\2D_GMAE\Unity
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 802e0000
-    m_LastClickedID: 11904
+    m_SelectedIDs: e62e0000
+    m_LastClickedID: 12006
     m_ExpandedIDs: 00000000ae2c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -638,7 +638,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
