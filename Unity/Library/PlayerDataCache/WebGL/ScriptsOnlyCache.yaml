@@ -12,7 +12,6 @@ ScriptsOnlyBuild:
     - fly
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
-    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -61,39 +60,39 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9674}
+      Script: {instanceID: 9676}
     - Class: 114
-      Script: {instanceID: 9822}
+      Script: {instanceID: 9824}
     - Class: 114
-      Script: {instanceID: 9856}
+      Script: {instanceID: 9858}
     - Class: 114
-      Script: {instanceID: 9864}
+      Script: {instanceID: 9866}
     - Class: 114
-      Script: {instanceID: 10230}
+      Script: {instanceID: 10232}
     - Class: 114
-      Script: {instanceID: 10468}
+      Script: {instanceID: 10470}
     - Class: 114
-      Script: {instanceID: 10482}
+      Script: {instanceID: 10484}
     - Class: 114
-      Script: {instanceID: 10566}
+      Script: {instanceID: 10568}
     - Class: 114
-      Script: {instanceID: 10570}
+      Script: {instanceID: 10572}
     - Class: 114
-      Script: {instanceID: 10656}
+      Script: {instanceID: 10658}
     - Class: 114
-      Script: {instanceID: 10668}
+      Script: {instanceID: 10670}
     - Class: 114
-      Script: {instanceID: 10832}
+      Script: {instanceID: 10834}
     - Class: 114
-      Script: {instanceID: 11016}
+      Script: {instanceID: 11018}
     - Class: 114
-      Script: {instanceID: 11304}
+      Script: {instanceID: 11306}
     - Class: 114
-      Script: {instanceID: 11338}
+      Script: {instanceID: 11340}
     - Class: 114
-      Script: {instanceID: 11342}
+      Script: {instanceID: 11344}
     - Class: 114
-      Script: {instanceID: 11360}
+      Script: {instanceID: 11362}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -582,4 +581,4 @@ ScriptsOnlyBuild:
   platform: 20
   scenePathNames:
   - "Assets/\u904A\u6232\u5834\u666F.unity"
-  playerPath: "C:/Users/A/Desktop/2D_GMAE/\u7DB2\u9801\u7B28\u9CE5"
+  playerPath: C:/Users/A/Desktop/2D_GMAE/bird
